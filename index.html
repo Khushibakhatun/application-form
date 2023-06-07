@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nature view</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Lobster&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+    margin: 0px;
+    padding: 0px;
+   background: url(renature.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;height: 100vh;
+}
+.left{
+    display: inline-block;
+ /*   border:2px solid rgb(0, 255, 55);*/
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+ /*   border: 2px solid rgb(12, 171, 234);*/
+
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 29px auto;
+   /* border: 2px solid yellow; */
+}
+.navbar li{
+    font-size: 25px;
+    display: inline-block;
+    display: inline;
+}
+.navbar li a{
+    color: aqua;
+   text-decoration: none;
+   padding: 5px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: darkkhaki;
+}
+.left img{
+    width: 100px;
+}
+.left div{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: antiquewhite;
+}
+.btn{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+    margin:0px 9px;
+    background-color: black;
+    color: red;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    }
+.container{
+    border: 2px solid greenyellow;
+    color:aquamarine;
+    margin: 106px 80px;
+    padding:75px ;
+    width: 33%;
+    border-radius: 28px;
+}
+.form.group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+     font-size: 25px;
+     border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin:20px  auto;
+
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="https://img.freepik.com/free-vector/green-circle-leaves-frame-with-copyspace_1017-26910.jpg?size=626&ext=jpg&ga=GA1.2.227723117.1677997071&semt=ais" alt="">
+           <div>nature view</div>
+
+        </div>
+        <div class="mid">
+            
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a> </li>
+                <li><a href="#"> nature</a></li>
+                 <li><a href="#">contact us</a></li>
+               
+            </ul>
+          </div>
+        <div class="right">
+         <button class="btn">call us now</button>
+         <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+       <h1>join with us to view nature</h1>
+       <form action="noation.php">
+        <div class="form group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form group">
+            <input type="text" name="" placeholder="Eenter your address">
+        </div>
+        <div class="form group">
+            <input type="text" name="" placeholder="Enter your phone number">
+        </div>
+        <div class="form group">
+            <input type="text" name="" placeholder="Eenter your email">
+        </div>
+        <button class="btn">submit</button>
+       </form>
+    </div>
+</body>
+</html>
